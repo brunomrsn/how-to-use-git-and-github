@@ -379,16 +379,16 @@ Ship = function () {
               0, -11,
               6,   7]);
 
-  this.color = 'navy';
+  this.color = 'blue';
   this.solid = true;
 
   this.children.exhaust = new Sprite();
   this.children.exhaust.solid = true;
   this.children.exhaust.color = 'red';
   this.children.exhaust.init("exhaust",
-                             [-3,  6,
-                               0, 11,
-                               3,  6]);
+                             [-10,  16,
+                               0, 3,
+                               10,  16]);
 
   this.delayBeforeBullet = 0;
 
